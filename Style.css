@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.flexCentered {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.hi50 {
+    height: 50px;
+    background-color:rgba(0,0,0,.7);
+    
+}
+.hi50 a{
+    text-decoration: none;
+    color: floralwhite;
+}
+
+.big {
+    text-align: center;
+    color: white;
+    background-color: crimson;
+    padding: 50px;
+    align-content: center;
+    align-self: center;
+}
+.charsimg {
+    width: 47%;
+    float: left;
+    object-fit: contain;
+    border-image: 
+}
+.chardesc {
+    width: 47%;
+    float: right;
+    top: auto;
+}
+h5 {
+    text-align: center;
+    text-shadow: 2px 1px gray;
+    background: linear-gradient(red, crimson, red, crimson, red);
+    padding: 30px;
+    border: 100;
+    width: 65%;
+}
+#fly {
+    height: 200px;
+    position: absolute;
+    left: -100px;
+    animation: slide 5s;
+}
+@keyframes slide {
+    0% { left: 0}
+    25% { left: 1000}
+    75% { right: 500}
+    100% { left: -500}
+}
